@@ -5,7 +5,7 @@ import java.util.stream.IntStream;
 
 public class Main {
     public static void main(String[] args) {
-        int [] zahlen = new int []{9,1,5,8,99,3};
+        int [] zahlen = new int []{1,5,4};
        // Arrays.sort(zahlen);
 
         int [] sorted =Arrays.stream(zahlen).sorted().toArray();
